@@ -5,9 +5,9 @@ num = int(input("Enter the integer number: "))
 sum = 0
 
 while num > 0:
-        
     remain = num % 10
     sum = sum * 10 + remain
+    
     num = num // 10
     
 print(sum)
